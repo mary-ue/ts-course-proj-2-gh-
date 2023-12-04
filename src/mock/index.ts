@@ -8,7 +8,7 @@ export const defaultUser: LocalGithubUser = {
   "company": "Company",
   "blog": "",
   "location": "Saint-Petersburg",
-  "bio": "BIO",
+  "bio": null,
   "twitter": "Twitter",
   "repos": 45,
   "followers": 0,
