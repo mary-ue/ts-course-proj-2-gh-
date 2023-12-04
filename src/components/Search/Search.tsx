@@ -17,7 +17,7 @@ export const Search = ({ hasError, onSubmit }: SearchProps) => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement & FormFields>) => {
     event.preventDefault();
     
-    const text = event.currentTarget.username.value;
+    const text = event.currentTarget.username.value.trim();
 
     if (text) {
       onSubmit(text);
